@@ -1,0 +1,19 @@
+/* CSS Reset */
+*{
+    box-sizing: border-box;
+    padding: auto;
+    margin: auto;
+};
+
+body{
+    color: rgba(33, 3, 3, 0.167);
+    font-family: "Helvetica", serif;
+    font-weight: 400;
+    font-size: 1000px;
+    font-style: normal;
+};
+
+h1{
+    font-size: large;
+    color:black;
+};
