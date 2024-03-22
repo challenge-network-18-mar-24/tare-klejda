@@ -1,19 +1,80 @@
 /* CSS Reset */
-*{
+* {
     box-sizing: border-box;
-    padding: auto;
-    margin: auto;
-};
+    margin: 0;
+    padding: 0;
+}
 
-body{
-    color: rgba(33, 3, 3, 0.167);
-    font-family: "Helvetica", serif;
-    font-weight: 400;
-    font-size: 1000px;
-    font-style: normal;
-};
+h1 {
+    color: grey;
+}
 
-h1{
-    font-size: large;
-    color:black;
-};
+.bg_blue {
+    background-color: rgb(64, 78, 237);
+}
+
+.w_200 {
+    width: 200px;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.p_10 {
+    padding: 10px;
+}
+
+.p_20 {
+    padding: 20px;
+}
+
+.p_50 {
+    padding: 50px;
+}
+
+.m_20 {
+    margin: 20px;
+}
+
+.text_white {
+    color: white;
+}
+
+.title_important {
+    font-family: "Russo One", sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+}
+
+#container_intro_header {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.custom_button {
+    background-color: #ffffff;
+    /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.bg_light_grey {
+    background-color: rgb(231, 241, 250);
+}
+
+.bg_dark_grey {
+    background-color: rgb(65, 7, 7);
+}
+
+.debug {
+    background-color: darkorange;
+    border: 5px solid red;
+}
