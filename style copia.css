@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: grey;
+}
+
+/* ------------------- WIDTH & HEIGHT ------------------- */
+.w_200px {
+    width: 200px;
+}
+
+.w_50 {
+    width: 50%;
+}
+
+
+/* ------------- MARGIN & PADDING --------------------*/
+.p_10 {
+    padding: 10px;
+}
+
+.p_20 {
+    padding: 20px;
+}
+
+.p_50 {
+    padding: 50px;
+}
+
+.p_70 {
+    padding: 70px;
+}
+
+.p_100 {
+    padding: 100px;
+}
+
+.m_20 {
+    margin: 20px;
+}
+
+.m_auto {
+    margin: auto;
+}
+
+
+/* ------------ BACKGROUND COLORS ----------------*/
+.bg_blue {
+    background-color: rgb(64, 78, 237);
+}
+
+.bg_white{
+    background-color: white;
+}
+
+.bg_light_grey {
+    background-color: rgb(246, 246, 246);
+}
+
+.bg_dark_grey {
+    background-color: rgb(184, 184, 184);
+}
+
+
+/* ------------- TEXT COLORS --------------------*/
+
+.text_white {
+    color: white;
+}
+
+/*--------- TEXT ALIGNMENTS ---------- */
+.text_center {
+    text-align: center;
+}
+
+.title_important {
+    font-family: "Russo One", sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+}
+
+.title_secondary {
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+
+/* ------- BUTTONS CUSTOM -------- */
+.custom_button {
+    background-color: #ffffff;
+    /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+/* --------------- UTILITY FLEX ----------- */
+
+.flex {
+    display: flex;
+}
+
+.flex_reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.space_evenly {
+    justify-content: space-evenly;
+}
+
+.align_items_center {
+    align-items: center;
+}
+
+.gap_20 {
+    gap: 20px;
+}
+
+/* ------------- UTILITY PERSONALI ------------------
+
+.debug {
+    background-color: darkorange;
+    border: 5px solid red;
+}
+
+
+/* --------------  ID --------------- */
+
+#container_intro_header {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
